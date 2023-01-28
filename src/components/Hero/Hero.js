@@ -19,7 +19,7 @@ const Hero = (props) => (
           This is Parsa Shabanpour, a Programmer and web designer with almost 3
           years of specialized programming work.
         </SectionText>
-        <Link href="/files/Parsa_Shabanpour_resume.pdf" passHref>
+        <Link href="/files/Parsa_Shabanpour_resume.pdf" passHref legacyBehavior>
           <Button>My Resume</Button>
         </Link>
       </LeftSection>

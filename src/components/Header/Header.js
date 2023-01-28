@@ -1,11 +1,7 @@
 import Link from "next/link";
 import React from "react";
-import {
-  AiFillGithub,
-  AiFillInstagram,
-  AiFillLinkedin,
-  AiFillTwitterCircle,
-} from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { FaTelegram } from "react-icons/fa";
 import {
   Container,
   Div1,
@@ -43,12 +39,12 @@ const Header = () => (
       <SocialIcons href="https://github.com/parsashhub">
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      {/*<SocialIcons href="https://www.linkedin.com/in/lordarcadius/">*/}
-      {/*  <AiFillLinkedin size="3rem" />*/}
-      {/*</SocialIcons>*/}
-      {/*<SocialIcons href="https://www.instagram.com/lordarcadius">*/}
-      {/*  <AiFillInstagram size="3rem" />*/}
-      {/*</SocialIcons>*/}
+      <SocialIcons href="https://www.linkedin.com/in/parsa-shabanpour-305302233">
+        <AiFillLinkedin size="3rem" />
+      </SocialIcons>
+      <SocialIcons href="https://t.me/ParsaShabanpour">
+        <FaTelegram size="3rem" />
+      </SocialIcons>
     </Div3>
   </Container>
 );

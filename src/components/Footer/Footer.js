@@ -18,41 +18,36 @@ import {
   SocialContainer,
   SocialIconsContainer,
 } from "./FooterStyles";
+import { FaTelegram } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <FooterWrapper>
-      <LinkList>
-        {/*<LinkColumn>*/}
-        {/*  <LinkTitle>Chat</LinkTitle>*/}
-        {/*  <LinkItem href="https://t.me/lordarcadius">Telegram</LinkItem>*/}
-        {/*</LinkColumn>*/}
-        {/*<LinkColumn>*/}
-        {/*  <LinkTitle>Email</LinkTitle>*/}
-        {/*  <LinkItem href="mailto:hey@vipuljha.com">hey@vipuljha.com</LinkItem>*/}
-        {/*</LinkColumn>*/}
-      </LinkList>
       <SocialIconsContainer>
-        <CompanyContainer>
-          <Slogan>
-            <Link href="https://github.com/lordarcadius">
-              the template is from here
-            </Link>
-          </Slogan>
-        </CompanyContainer>
+        <LinkList>
+          <LinkColumn>
+            <LinkTitle>Download Template</LinkTitle>
+            <LinkItem href="https://github.com/lordarcadius" target="_blank">
+              Link
+            </LinkItem>
+          </LinkColumn>
+          <LinkColumn>
+            <LinkTitle>Email</LinkTitle>
+            <LinkItem href="mailto:parsash1380@gmail.com">
+              parsash1380@gmail.com
+            </LinkItem>
+          </LinkColumn>
+        </LinkList>
         <SocialContainer>
-          {/*<SocialIcons href="https://github.com/lordarcadius">*/}
-          {/*  <AiFillGithub size="3rem" />*/}
-          {/*</SocialIcons>*/}
-          {/*<SocialIcons href="https://www.linkedin.com/in/lordarcadius/">*/}
-          {/*  <AiFillLinkedin size="3rem" />*/}
-          {/*</SocialIcons>*/}
-          {/*<SocialIcons href="https://www.instagram.com/lordarcadius">*/}
-          {/*  <AiFillInstagram size="3rem" />*/}
-          {/*</SocialIcons>*/}
-          {/*<SocialIcons href="https://www.twitter.com/lordarcadius">*/}
-          {/*  <AiFillTwitterCircle size="3rem" />*/}
-          {/*</SocialIcons>*/}
+          <SocialIcons href="https://github.com/parsashhub">
+            <AiFillGithub size="3rem" />
+          </SocialIcons>
+          <SocialIcons href="https://www.linkedin.com/in/parsa-shabanpour-305302233">
+            <AiFillLinkedin size="3rem" />
+          </SocialIcons>
+          <SocialIcons href="https://t.me/ParsaShabanpour">
+            <FaTelegram size="3rem" />
+          </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>
