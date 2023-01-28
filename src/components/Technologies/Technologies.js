@@ -16,7 +16,6 @@ import { Skills } from "./Skills";
 
 const Technologies = () => (
   <Section id="skills">
-    <SectionDivider divider />
     <SectionTitle>Skills</SectionTitle>
     <SectionText>
       I've worked with multiple technologies as a front-end developer to develop
