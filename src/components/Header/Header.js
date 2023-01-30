@@ -13,12 +13,17 @@ import {
 
 const Header = () => (
   <Container>
-    {/*<Div1>*/}
-    {/*  <Link href="/">*/}
-    {/*    <a style={{ display: "flex", alignItems: "center", color: "white" }} />*/}
-    {/*  </Link>*/}
-    {/*</Div1>*/}
+    <Div1>
+      {/*<Link href="/">*/}
+      {/*  <a style={{ display: "flex", alignItems: "center", color: "white" }} />*/}
+      {/*</Link>*/}
+    </Div1>
     <Div2>
+      <li>
+        <Link href="#about">
+          <NavLink>Experiences</NavLink>
+        </Link>
+      </li>
       <li>
         <Link href="#projects">
           <NavLink>Projects</NavLink>
@@ -27,11 +32,6 @@ const Header = () => (
       <li>
         <Link href="#skills">
           <NavLink>Skills</NavLink>
-        </Link>
-      </li>
-      <li>
-        <Link href="#about">
-          <NavLink>About</NavLink>
         </Link>
       </li>
     </Div2>
