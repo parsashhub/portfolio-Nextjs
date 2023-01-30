@@ -16,6 +16,7 @@ import { Skills } from "./Skills";
 
 const Technologies = () => (
   <Section id="skills">
+    <SectionDivider divider="2 0" />
     <SectionTitle>Skills</SectionTitle>
     <SectionText>
       I've worked with multiple technologies as a front-end developer to develop
